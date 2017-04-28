@@ -1,4 +1,4 @@
-# Segunda atividade - Cálculo IMC em JSP - 28/04/2017
+# Quarta atividade - Cálculo IMC em JSP - 28/04/2017
 
 ## Para fazer o clone do projeto
 
