@@ -1,3 +1,13 @@
 body{
     background-color: gray;
 }
+
+legend{
+    text-align: center;
+    color: black;
+    
+}
+
+.form-group{
+    color: black;
+}

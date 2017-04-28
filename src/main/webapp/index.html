@@ -11,6 +11,7 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="style.css" rel="stylesheet">
+<script type="text/javascript" src="js/calculaIMC"></script>
     
   </head>
   <body>
@@ -19,7 +20,7 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>Cálculo IMC</legend>
+<legend><b>Cálculo IMC</b></legend>
 
 <!-- Text input-->
 <div class="form-group">
@@ -62,7 +63,8 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="calcular"></label>
   <div class="col-md-4">
-    <button id="calcular" name="calcular" class="btn btn-primary">Calcular</button>
+    <button id="calcular" name="calcular" class="btn btn-primary" onclick="CalculaIMC();">Calcular</button>
+    <button id="calcular" name="ajuda" class="btn btn-primary" onclick="Duvida();">Ajuda</button>
   </div>
 </div>
 
