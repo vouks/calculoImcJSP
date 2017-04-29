@@ -48,3 +48,6 @@
 0:0:0:0:0:0:0:1 - - [28/Apr/2017:21:14:43 -0300] "GET /renan-pw/?peso=&altura=&sexo=1&ajuda= HTTP/1.1" 500 2942 http-bio-8080-exec-7 3
 0:0:0:0:0:0:0:1 - - [28/Apr/2017:21:14:50 -0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-3 0
 0:0:0:0:0:0:0:1 - - [28/Apr/2017:21:14:59 -0300] "GET /renan-pw/ HTTP/1.1" 200 2162 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:21:21:37 -0300] "GET /renan-pw HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:21:21:37 -0300] "GET /renan-pw/ HTTP/1.1" 200 2162 http-bio-9090-exec-4 40
+0:0:0:0:0:0:0:1 - - [28/Apr/2017:21:21:37 -0300] "GET /renan-pw/css/style.css HTTP/1.1" 200 128 http-bio-9090-exec-5 12
